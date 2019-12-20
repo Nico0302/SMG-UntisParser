@@ -1,10 +1,10 @@
 # SMG UntisParser #
-Parse Sebastian-Münster-Gymnasium teacher substitution schedules.
+Parse teacher substitution schedules from the Sebastian-Münster-Gymnasium.
 
-## Installation ##
-You need to provide your own *cheerio* instance since this package needs to be compatible with *react-native*.
+## Install ##
+You need to provide your own *cheerio* instance since this package needs to be compatible with React Native.
 
-``` yarn add @nico0302/smg-untis-parser ```
+``` yarn add smg-untis-parser ```
 
 and
 
@@ -13,7 +13,7 @@ and
 ## Usage ##
 ```
 import cheerio from 'cheerio'; // 'react-native-cheerio'
-import UntisParser from '@nico0302/smg-untis-parser';
+import UntisParser from 'smg-untis-parser';
 
 const parser = new UntisParser(cheerio, data);
 const timetables = parser.timetables;
