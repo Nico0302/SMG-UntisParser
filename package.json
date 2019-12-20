@@ -1,0 +1,16 @@
+{
+  "name": "smg-untis-parser",
+  "version": "0.0.1",
+  "description": "Parse SMG teacher substitution schedules",
+  "main": "src/index.js",
+  "repository": {
+    "url": "https://github.com/Nico0302/SMG-UntisParser",
+    "type": "git"
+  },
+  "author": "Nico0302",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "moment": "^2.24.0"
+  }
+}
